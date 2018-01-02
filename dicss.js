@@ -91,6 +91,7 @@
                 }
             }
         },
-        "pullOut": removeRule
+        "pullOut": removeRule,
+        "isGod": true
     };
 })();

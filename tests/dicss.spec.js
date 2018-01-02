@@ -43,5 +43,9 @@ describe('DICSS', function() {
         expect(rules[rules.length - 1].cssText).to.equal('h1.active { color: white; }');
     });
 
+    it ('shuld be GOD!!', function() {
+        expect(DICSS.isGod).to.equal(true);
+    });
+	
 });
 
